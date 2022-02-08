@@ -5,16 +5,26 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Портфолио</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
 
-  <body class="page">
+  <body>
     <!--Шапка-->
     <header class="page-header">
       <a href="./index.html" class="logo-link" lang="en"><span class="logo-web">Web</span>Studio</a>
       <nav class="nav">
-        <ul class="site-nav list">
-          <li><a href="./index.html" class="site-nav-link">Студия</a></li>
+        <ul class="site-nav-link list">
+          <li>
+            <a href="./index.html" target="_blank" rel="noreferer noopenner" class="site-nav-link"
+              >Студия</a
+            >
+          </li>
           <li>
             <a href="" class="site-nav-link-current">Портфолио</a>
           </li>
@@ -32,27 +42,27 @@
     </header>
     <main>
       <!--Фильтры-->
-      <section class="filters">
-        <h1 hidden>Фильтры</h1>
+      <section class="gallery-section">
+        <h1 hidden>Примеры работ</h1>
         <ul class="list">
-          <li><button type="button" class="button primary">Все</button></li>
-          <li><button type="button" class="button secondary">Веб-сайты</button></li>
-          <li><button type="button" class="button secondary">Приложения</button></li>
-          <li><button type="button" class="button secondary">Дизайн</button></li>
-          <li><button type="button" class="button secondary">Маркетинг</button></li>
+          <li><button type="button" class="button-primary">Все</button></li>
+          <li><button type="button" class="button-secondary">Веб-сайты</button></li>
+          <li><button type="button" class="button-secondary">Приложения</button></li>
+          <li><button type="button" class="button-secondary">Дизайн</button></li>
+          <li><button type="button" class="button-secondary">Маркетинг</button></li>
         </ul>
-      </section>
-      <section class="galery-section">
-        <h2 hidden>Примеры работ</h2>
+
         <ul class="gallery list">
           <li class="gallery-item">
             <img src="./image/img-0-hw2.jpeg" alt="Фото специалистов" width="370" height="294" />
-            <h3 class="galery-headline">Технокряк</h3>
+            <h2 class="galery-headline-portfolio">Технокряк</h2>
             <p class="text">Веб-сайт</p>
           </li>
           <li class="gallery-item">
             <img src="./image/img-1-hw2.jpeg" alt="Игроки в баскетбол" width="370" height="294" />
-            <h3 class="galery-headline">Постер <span lang="en">New Orlean vs Golden Star</span></h3>
+            <h2 class="galery-headline-portfolio">
+              Постер <span lang="en">New Orlean vs Golden Star</span>
+            </h2>
             <p class="text">Дизайн</p>
           </li>
           <li class="gallery-item">
@@ -62,33 +72,35 @@
               width="370"
               height="294"
             />
-            <h3 class="galery-headline">Ресторан <span lang="en">Seafood</span></h3>
+            <h2 class="galery-headline-portfolio">Ресторан <span lang="en">Seafood</span></h2>
             <p class="text">Приложение</p>
           </li>
           <li class="gallery-item">
             <img src="./image/img-3-hw2.jpeg" alt="Наушники" width="370" height="294" />
-            <h3 class="galery-headline">Проект <span lang="en">Prime</span></h3>
+            <h2 class="galery-headline-portfolio">Проект <span lang="en">Prime</span></h2>
             <p class="text">Маркетинг</p>
           </li>
           <li class="gallery-item">
             <img src="./image/img-4-hw2.jpeg" alt="Коробки" width="370" height="294" />
-            <h3 class="galery-headline">Проект <span lang="en">Boxes</span></h3>
+            <h2 class="galery-headline-portfolio">Проект <span lang="en">Boxes</span></h2>
             <p class="text">Приложение</p>
           </li>
           <li class="gallery-item">
             <img src="./image/img-5-hw2.jpeg" alt="Монитор" width="370" height="294" />
-            <h3 class="galery-headline"><span>Inspiration has no Borders</span></h3>
+            <h2 class="galery-headline-portfolio"><span>Inspiration has no Borders</span></h2>
             <p class="text">Веб-сайт</p>
           </li>
           <li class="gallery-item">
             <img src="./image/img-6-hw2.jpeg" alt="Книга" width="370" height="294" />
-            <h3 class="galery-headline">Издание <span lang="en">Limited Edition</span></h3>
+            <h2 class="galery-headline-portfolio">
+              Издание <span lang="en">Limited Edition</span>
+            </h2>
             <p class="text">Дизайн</p>
           </li>
 
           <li>
             <img src="./image/img-7-hw2.jpeg" alt="Ярлык" width="370" height="294" />
-            <h3 class="galery-headline">Проект <span lang="en">LAB</span></h3>
+            <h2 class="galery-headline-portfolio">Проект <span lang="en">LAB</span></h2>
             <p class="text">Маркетинг</p>
           </li>
           <li>
@@ -98,7 +110,7 @@
               width="370"
               height="294"
             />
-            <h3 class="galery-headline"><span lang="en">Growing Business</span></h3>
+            <h2 class="galery-headline"><span lang="en">Growing Business</span></h2>
             <p class="text">Приложение</p>
           </li>
         </ul>

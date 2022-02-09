@@ -63,7 +63,10 @@ body {
   line-height: 1.14;
   letter-spacing: 0.02em;
 }
-
+.site-nav-link-current:hover,
+.site-nav-link-current:focus {
+  color: var(--accent-color);
+}
 .site-nav-link-current {
   color: var(--accent-color);
   text-decoration: none;

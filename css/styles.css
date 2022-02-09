@@ -4,7 +4,6 @@
 /* Белый хедер фон  #FFFFFF */
 /* Серый текст не основной #757575 */
 /* Наша команда фон #F5F4FA */
-/* Чем мы занимаемся фон #E5E5E5 */
 /* Герой, футер фон #2F303A */
 :root {
   --primary-text-color: #212121;
@@ -17,7 +16,6 @@
 body {
   color: var(--primary-text-color);
   font-family: Roboto, sans-serif;
-  font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -39,6 +37,7 @@ body {
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
+  letter-spacing: 0.03em;
 }
 .logo-link:hover,
 .logo-link:focus {
@@ -55,7 +54,7 @@ body {
 }
 .site-nav-link:hover,
 .site-nav-link:focus {
-  color: var(--primary-text-color);
+  color: var(--accent-color);
 }
 .auth-nav-link {
   color: var(--secondary-text-color);
@@ -64,36 +63,42 @@ body {
   line-height: 1.14;
   letter-spacing: 0.02em;
 }
+
 .site-nav-link-current {
   color: var(--accent-color);
+  text-decoration: none;
 }
+
 .auth-nav-link:hover,
 .auth-nav-link:focus {
   color: var(--accent-color);
 }
+
 /* Хедер */
 .page.header {
   color: var(--title-text-color);
 }
 /* Мейн */
-.main.portfplio {
-  color: #e5e5e5;
-}
+
 .hero {
   color: var(--title-text-color);
   background-color: var(--hero-footer-bg-color);
+}
+.hero-title {
+  /* color: var(--title-text-color);
+  background-color: var(--hero-footer-bg-color); */
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
   text-align: center;
   letter-spacing: 0.06em;
+  text-transform: uppercase;
 }
-.benefits {
-  background-color: #e5e5e5;
-}
+
 .title {
   font-weight: 700;
   line-height: 1.14;
+  letter-spacing: 0.03em;
 }
 .gallery-section {
   background-color: #f5f4fa;
@@ -103,6 +108,7 @@ body {
   font-size: 36px;
   line-height: 1.16;
   text-align: center;
+  letter-spacing: 0.03em;
 }
 .gallery-item {
   background-color: var(--title-text-color);
@@ -111,6 +117,7 @@ body {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.18;
+  letter-spacing: 0.03em;
 }
 .galery-headline-portfolio {
   font-weight: 700;
@@ -122,6 +129,7 @@ body {
   color: var(--secondary-text-color);
   font-size: 16px;
   line-height: 1.18;
+  letter-spacing: 0.03em;
 }
 /* Кнопки */
 
@@ -148,9 +156,14 @@ body {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
+  letter-spacing: 0.03em;
 }
 .button-secondary {
   cursor: pointer;
+}
+.button-secondary:hover,
+.button-secondary:focus {
+  background-color: var(--accent-color);
 }
 .button-secondary {
   color: var(--primary-text-color);
@@ -159,6 +172,7 @@ body {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
+  letter-spacing: 0.03em;
 }
 
 /* Футер */
@@ -166,8 +180,23 @@ body {
   color: rgb(255, 255, 255, 0.6);
   background-color: var(--hero-footer-bg-color);
   text-decoration: none;
+  font-style: normal;
 }
 .footer-link {
   color: var(--title-text-color);
   text-decoration: none;
+  font-style: normal;
+}
+
+.logo-footer {
+  text-decoration: none;
+  font-family: Raleway;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 31px;
+  letter-spacing: 0.03em;
+}
+.logo-footer:hover,
+.logo-footer:focus {
+  color: var(--accent-color);
 }

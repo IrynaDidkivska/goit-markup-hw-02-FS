@@ -170,6 +170,7 @@ body {
 }
 .button-secondary:hover,
 .button-secondary:focus {
+  color: var(--title-text-color);
   background-color: var(--accent-color);
 }
 .button-secondary {

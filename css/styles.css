@@ -152,6 +152,10 @@ body {
 .button-primary {
   cursor: pointer;
 }
+.button-primary:hover,
+.button-primary:focus {
+  background-color: var(--accent-color);
+}
 .button-primary {
   color: var(--title-text-color);
   background-color: var(--accent-color);
@@ -183,11 +187,13 @@ body {
   color: rgb(255, 255, 255, 0.6);
   background-color: var(--hero-footer-bg-color);
   text-decoration: none;
-  font-style: normal;
 }
 .footer-link {
   color: var(--title-text-color);
   text-decoration: none;
+  font-style: normal;
+}
+.address {
   font-style: normal;
 }
 
@@ -196,7 +202,7 @@ body {
   font-family: Raleway;
   font-weight: 700;
   font-size: 26px;
-  line-height: 31px;
+  line-height: 1.19;
   letter-spacing: 0.03em;
 }
 .logo-footer:hover,

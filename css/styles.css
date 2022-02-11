@@ -139,6 +139,10 @@ body {
 .hero-button {
   cursor: pointer;
 }
+.hero-button:hover,
+.hero-button:focus {
+  background-color: #188ce8;
+}
 .hero-button {
   font-family: inherit;
   color: var(--title-text-color);

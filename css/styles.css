@@ -12,7 +12,6 @@
   --secondary-text-color: #757575;
   --accent-color: #2196f3;
   --hero-footer-bg-color: #2f303a;
-  --phone-mail: rgba(255, 255, 255, 0.6);
 }
 /* Основное */
 body {
@@ -107,9 +106,7 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
-.gallery-section {
-  background-color: #f5f4fa;
-}
+
 .gallery-headline-primary {
   font-weight: 700;
   font-size: 36px;
@@ -135,8 +132,14 @@ body {
 .text {
   color: var(--secondary-text-color);
   font-size: 16px;
-  line-height: 1.18;
+  line-height: 1.87;
   letter-spacing: 0.03em;
+}
+.text-index {
+  font-size: 16px;
+  line-height: 1.18px;
+  letter-spacing: 0.03em;
+  color: var(--secondary-text-color);
 }
 .benefits-text {
   color: var(--secondary-text-color);
@@ -198,10 +201,13 @@ body {
 }
 
 /* Футер */
+
 .footer {
+  color: rgb(255, 255, 255, 0.6);
   background-color: var(--hero-footer-bg-color);
   text-decoration: none;
 }
+
 .footer-link {
   color: var(--title-text-color);
   text-decoration: none;
@@ -215,23 +221,20 @@ body {
   font-style: normal;
 }
 
-.footer-address-link {
-  color: var(--phone-mail);
-  text-decoration: none;
-}
 .logo-footer {
   text-decoration: none;
-  font-family: Raleway, sans-serif;
+  font-family: Raleway;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
 }
-.logo-footer:hover,
-.logo-footer:focus {
-  color: var(--accent-color);
+
+.auth-address {
+  color: rgba(255, 255, 255, 0.6);
+  text-decoration: none;
 }
-.footer-address-link:hover,
-.footer-address-link:focus {
+.auth-address:hover,
+.auth-address:focus {
   color: var(--accent-color);
 }
